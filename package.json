@@ -19,8 +19,8 @@
   },
   "eslintConfig": {
     "extends": [
-      "legal-consultancy-app",
-      "legal-consultancy-app/jest"
+      "react-app",
+      "react-app/jest"
     ]
   },
   "browserslist": {
