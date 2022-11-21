@@ -1,9 +1,9 @@
-import {React} from 'react';
+import React from 'react';
 import NavbarItem from './NavbarItem';
 
 const navbarItems = [
   {href: '#home-container', item: 'ANASAYFA'},
-  {href: '#home-container', item: 'HİZMETLERİMİZ'},
+  {href: '#top-container', item: 'HİZMETLERİMİZ'},
   {href: '#home-container', item: 'HAKKIMIZDA'},
   {href: '#home-container', item: 'KADROMUZ'},
   {href: '#home-container', item: 'İLETİŞİM'}

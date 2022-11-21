@@ -1,0 +1,85 @@
+/* Top Container  -------------------- */
+.top-container {
+  color: white;
+  position: relative;
+  background-color: white;
+  padding: 8% 20%;
+}
+
+.top-container .display-3 {
+  margin: auto;
+  opacity: .08;
+  color: #004143;
+  text-shadow: 0px 3px, 3px 0px, 3px 3px;
+  font-weight: 600;
+  letter-spacing: -0.4rem;
+  line-height: 3.5rem;
+}
+
+/* Pen Styles */
+.top-container .row-pen {
+  margin-top: -2rem;
+  margin-bottom: 4rem;
+}
+
+.row-pen .line {
+  color: black;
+  opacity: unset;
+  text-align: center;
+  margin-left: 2rem;
+}
+
+/* Top Row */ 
+/* Mail Button */
+.btn-mail {
+  width: 50%;
+}
+
+.btn-mail:hover {
+  content: url("../images/dialog-box/mail-active.png");
+  cursor: pointer;
+}
+
+/* Services Card */
+.service-card {
+  padding: 3rem;
+  color: white;
+  background-color: #004143;
+  font-weight: 100;
+}
+
+.service-card h1 {
+  letter-spacing: .1rem;
+  font-weight: 600;
+  font-size: 2.1rem;
+}
+
+.service-card .line {
+  color: white;
+  text-align: center;
+  opacity: unset;
+}
+
+/* Middle Row */
+.slogan-card {
+  border: .5rem solid;
+  border-color: #9ED2C6;
+  padding: 3rem 1rem;
+  color: black;
+  letter-spacing: .2rem;
+}
+
+.slogan-card h4 {
+  font-weight: 300;
+}
+
+.slogan-card p {
+  margin: 2rem 0 0 0;
+  font-weight: 700;
+  font-size: small;
+}
+/* Clip Styles */
+.clip {
+  position: absolute;
+  margin-top: -7rem;
+}
