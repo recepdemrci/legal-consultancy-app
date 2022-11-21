@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+[class*='col'] {
+  padding: 0;
+}
+
+/* Home Container -------------------- */
+.home-container {
+  color: white;
+  position: relative;
+  border: solid 1em;
+  height: 100vh;
+  background-image: url("./images/home-header.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.home-title {
+  color: white;
+  position: absolute;
+  width: 100%;
+  top: 15%;
+}
+
+.home-title .img-fluid {
+  fill: rgb(255, 255, 255);
+  width: 40%;
+}
+
+.home-title h1 {
+  margin-top: 1em;
+  margin-bottom: 0;
+  font-weight: 800;
+  letter-spacing: -0.05em;
+}
+
+.home-title h3 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-size: 1.3rem;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+}
+
+
+/* Side butons */
+.home-container a {
+  color: white;
+  position: absolute;
+  font-size: 0.8rem;
+  font-weight: 300;
+  text-decoration: none;
+  transform: rotate(-90deg);
+  z-index: 2;
+}
+
+.home-side-top {
+  top: 15%;
+  left: 0;
+}
+
+.home-side-middle {
+  top: 50%;
+  bottom: 50%;
+  left: -2.1em;
+}
+
+.home-side-bottom {
+  bottom: 15%;
+  left: -0.8em;
+}
