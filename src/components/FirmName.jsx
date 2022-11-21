@@ -1,11 +1,11 @@
 import React from 'react';
 
-function FirmName() {
+function FirmName(props) {
   return (
     <div>
       <div class="row justify-content-center">
         <div class="col-lg-8 col-10">
-          <h1 class="display-1">HANEDAN</h1>
+          <h1 class="display-1">{props.name}</h1>
         </div>
       </div>
       <div class="row justify-content-center">

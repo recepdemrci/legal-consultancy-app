@@ -9,11 +9,10 @@ function HomeContainer() {
       <a class= "home-side-middle" href="">TİCARET HUKUKU</a>
       <a class= "home-side-bottom" href="">CEZA HUKUKU</a>
 
-
       <div class="home-title">
         <div class="container text-center">
           <FirmLogo />
-          <FirmName />
+          <FirmName name='HANEDAN'/>
         </div>
       </div>
     </div>
