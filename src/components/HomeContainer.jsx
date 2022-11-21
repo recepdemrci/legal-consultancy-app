@@ -1,4 +1,5 @@
 import React from 'react';
+import '../assets/styles/HomeContainer.css';
 import FirmLogo from './FirmLogo';
 import FirmName from './FirmName';
 

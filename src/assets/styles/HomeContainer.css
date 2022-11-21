@@ -1,19 +1,10 @@
-body {
-  margin: 0;
-  font-family: 'Open Sans', sans-serif;
-}
-
-[class*='col'] {
-  padding: 0;
-}
-
 /* Home Container -------------------- */
 .home-container {
   color: white;
   position: relative;
   border: solid 1em;
   height: 100vh;
-  background-image: url("./images/home-header.png");
+  background-image: url("../images/home-header.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -71,20 +62,4 @@ body {
 .home-side-bottom {
   bottom: 15%;
   left: -0.8em;
-}
-
-/* Navbar */
-.navbar {
-  background-color: white;
-  border-bottom: 1px solid rgba(0,0,0,0.075);
-}
-
-.nav-link:hover {
-  color: #126E82
-}
-
-.navbar-nav > li {
-  font-size: small;
-  font-weight: 500;
-  letter-spacing: .05em;
 }
