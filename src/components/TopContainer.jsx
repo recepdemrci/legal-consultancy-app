@@ -3,6 +3,10 @@ import '../assets/styles/TopContainer.css';
 import TextBackground from './TextBackgroud';
 import Pen from './Pen';
 import Card from './Card';
+import containerImg from '../assets/images/top-container.png';
+import Clip from './Clip';
+import clipImg from '../assets/images/top-container-clip.png';
+
 
 function TopContainer() {
   return (
@@ -12,11 +16,11 @@ function TopContainer() {
       </div>
       <Pen />
       <div class="row row-top">
-        <div class="col-xl-6 col-lg-8 col-10">
+        <div class="col-xl-6 col-lg-8 col-12">
           <img src="images/dialog-box/mail.png" alt="btn-mail" class="img-fluid mb-5 btn-mail" />   
-          <img src="images/top-container.png" alt="top-container-img" class="img-fluid mb-lg-0 mb-5" />
+          <img src={containerImg} alt="top-container-img" class="img-fluid mb-lg-0 mb-5" />
         </div>
-        <div class="col-xl-6 col-lg-8 col-10 mb-lg-0 mb-5 offset-xl-0 offset-lg-4">
+        <div class="col-xl-6 col-lg-8 col-12 mb-lg-0 mb-5 offset-xl-0 offset-lg-4">
           <Card 
             name='service-card'
             title='HİZMETLERİMİZ' 
@@ -37,7 +41,7 @@ function TopContainer() {
         </div>
       </div>
       <div class="row row-middle">
-        <div class="col-lg-5 col-10 text-center offset-lg-3">
+        <div class="col-lg-5 col-12 text-center offset-lg-3">
           <Card 
             name='slogan-card'
             title='"SAVUNULMANIN SAVUNULMASI" GEREKTİĞİNE İNANMAKTAYIZ.'
@@ -46,10 +50,7 @@ function TopContainer() {
             }
           />
         </div>
-        <div class="col d-none d-lg-block text-center">
-          <img src="images/top-container-clip.png" alt="clip-image" class="img-fluid clip" />
-          <h4 class="display-4 text-end">İCRA ve İFLAS HUKUKU</h4>
-        </div>
+        <TextBackground img={{class:'img-fluid clip', src:clipImg, alt:'clip-image'}} col='col' text='İCRA ve İFLAS HUKUKU' />
       </div>
     </div>
   );
