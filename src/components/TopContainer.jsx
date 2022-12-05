@@ -2,6 +2,7 @@ import React from 'react';
 import '../assets/styles/TopContainer.css';
 import TextBackground from './TextBackgroud';
 import Pen from './Pen';
+import Card from './Card';
 
 function TopContainer() {
   return (
@@ -15,11 +16,12 @@ function TopContainer() {
           <img src="images/dialog-box/mail.png" alt="btn-mail" class="img-fluid mb-5 btn-mail" />   
           <img src="images/top-container.png" alt="top-container-img" class="img-fluid mb-lg-0 mb-5" />
         </div>
-        <div class="col-xl-6 col-lg-8 col-10 offset-xl-0 offset-lg-4">
-          <div class="card-fluid mb-lg-0 mb-5 service-card">
-            <div class="card-body">
-              <h1 class="card-title">HİZMETLERİMİZ</h1>
-              <hr class="hr line"/>
+        <div class="col-xl-6 col-lg-8 col-10 mb-lg-0 mb-5 offset-xl-0 offset-lg-4">
+          <Card 
+            name='service-card'
+            title='HİZMETLERİMİZ' 
+            line={true}
+            body={
               <p>Together we represent more than 60 years of experience in claims-expertise: to prevent, to investigate and to defend.<br />
                 We can help you with the whole package or just with the elements you need:<br />
                 – coverage<br />
@@ -28,20 +30,21 @@ function TopContainer() {
                 – technical investigation<br />
                 – material and economic damage<br />
                 – practical solutions<br />
-                – legal assistance 
+                – legal assistance
               </p>
-            </div>
-          </div>
+            } 
+          />
         </div>
       </div>
       <div class="row row-middle">
-        <div class="col-lg-5 col-10 offset-lg-3">
-          <div class="card-fluid text-center slogan-card">
-            <div class="card-body">
-              <h4 class="card-title">"SAVUNULMANIN<br /> SAVUNULMASI" GEREKTİĞİNE İNANMAKTAYIZ.</h4>
+        <div class="col-lg-5 col-10 text-center offset-lg-3">
+          <Card 
+            name='slogan-card'
+            title='"SAVUNULMANIN SAVUNULMASI" GEREKTİĞİNE İNANMAKTAYIZ.'
+            body={
               <p>NET VE ANLAŞILIR OLMAYA ÇALIŞIYORUZ.</p>
-            </div>
-          </div>
+            }
+          />
         </div>
         <div class="col d-none d-lg-block text-center">
           <img src="images/top-container-clip.png" alt="clip-image" class="img-fluid clip" />
