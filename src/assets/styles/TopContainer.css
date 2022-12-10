@@ -29,15 +29,10 @@
   margin-left: 2rem;
 }
 
-/* Top Row */ 
 /* Mail Button */
-.btn-mail {
+.mail {
   width: 50%;
-}
-
-.btn-mail:hover {
-  content: url("../images/dialog-box/mail-active.png");
-  cursor: pointer;
+  margin-bottom: 3rem;
 }
 
 /* Services Card */
