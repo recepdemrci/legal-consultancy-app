@@ -11,7 +11,7 @@ function TopContainer() {
   return (
     <div class="top-container" id="top-container">
       <div class="row">
-        <TextBackground col="col" text="TİCARET HUKUKU" />
+        <TextBackground col="col" text="TİCARET HUKUKU" textAlign="text-end" />
       </div>
       <Pen />
       <div class="row row-top">
@@ -65,6 +65,7 @@ function TopContainer() {
           img={{ class: "img-fluid clip", src: clipImg, alt: "clip-image" }}
           col="col"
           text="İCRA ve İFLAS HUKUKU"
+          textAlign="text-end"
         />
       </div>
     </div>
