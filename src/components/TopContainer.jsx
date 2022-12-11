@@ -1,12 +1,9 @@
 import React from "react";
-
 import "../assets/styles/TopContainer.css";
-
 import TextBackground from "./TextBackgroud";
 import Pen from "./Pen";
 import Card from "./Card";
 import Button from "./Button";
-
 import containerImg from "../assets/images/top-container.png";
 import clipImg from "../assets/images/top-container-clip.png";
 

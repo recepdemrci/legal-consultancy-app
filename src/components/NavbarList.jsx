@@ -9,9 +9,12 @@ const navbarItems = [
   {href: '#home-container', item: 'İLETİŞİM'}
 ]
 
-function NavbarList() {
+function NavbarList(props) {
   return (
-    <div class="collapse navbar-collapse text-center" id="navbarColor03">
+    <div 
+      class={"collapse navbar-collapse text-center" + (props.collapsed ? '' : ' show')} 
+      id="navbarId"
+    >
       <ul class="navbar-nav mx-auto my-2">
         {navbarItems.map(navbarItem => (
           <NavbarItem href={navbarItem.href} item={navbarItem.item} />
