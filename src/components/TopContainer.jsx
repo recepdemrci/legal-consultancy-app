@@ -1,11 +1,11 @@
 import React from "react";
-import "../assets/styles/TopContainer.css";
-import TextBackground from "./TextBackgroud";
-import Pen from "./Pen";
-import Card from "./Card";
-import Button from "./Button";
-import containerImg from "../assets/images/top-container.png";
-import clipImg from "../assets/images/top-container-clip.png";
+import "assets/styles/TopContainer.css";
+import containerImg from "assets/images/top-container.png";
+import clipImg from "assets/images/top-container-clip.png";
+import TextBackground from "components/TextBackgroud";
+import Pen from "components/Pen";
+import Card from "components/Card";
+import Button from "components/Button";
 
 function TopContainer() {
   return (

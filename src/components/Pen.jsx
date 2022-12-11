@@ -1,5 +1,5 @@
-import React from 'react';
-import penImg from '../assets/images/top-container-pen.png';
+import React from "react";
+import penImg from "assets/images/top-container-pen.png";
 
 function Pen() {
   return (
@@ -8,7 +8,7 @@ function Pen() {
         <img src={penImg} alt="pen-image" class="img-fluid" />
       </div>
       <div class="col-xl-6 col-4 align-self-center">
-        <hr class="hr line"/>
+        <hr class="hr line" />
       </div>
     </div>
   );
