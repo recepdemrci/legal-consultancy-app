@@ -1,4 +1,5 @@
 import React from "react";
+import "assets/styles/MiddleContainer.css"
 
 function MiddleContainer() {
   return (

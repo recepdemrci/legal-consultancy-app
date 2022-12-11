@@ -54,7 +54,7 @@
   color: white;
 }
 
-/* Mail Button */
+/* Call Button */
 .btn-call:hover {
   content: url("../images/dialog-box/call-active.png");
   cursor: pointer;
