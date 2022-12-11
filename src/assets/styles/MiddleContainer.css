@@ -1,0 +1,61 @@
+/* Middle Container ------------------ */
+.middle-container {
+  position: relative;
+  background-color: #f0f2f4;
+  padding: 8% 20%;
+}
+
+.info-card {
+  color: black;
+  font-weight: 100;
+}
+
+.info-card h1 {
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  font-size: 2.1rem;
+}
+
+.info-card .line {
+  text-align: center;
+  opacity: unset;
+}
+
+.middle-container .slogan-card {
+  padding-bottom: 5rem;
+  margin-bottom: -5rem;
+}
+
+.middle-container .display-3 {
+  margin: auto;
+  opacity: 0.08;
+  color: #004143;
+  text-shadow: 0px 3px, 3px 0px, 3px 3px;
+  font-weight: 600;
+  font-size: 5rem;
+  letter-spacing: -0.4rem;
+  line-height: 5rem;
+}
+
+.middle-container .row-bottom {
+  margin-top: -5rem;
+}
+
+.word-card {
+  background-color: #004143;
+  padding: 5rem 2rem;
+  letter-spacing: 0.2rem;
+}
+
+.word-card h4 {
+  font-weight: 100;
+  font-size: medium;
+  line-height: 2.5rem;
+  color: white;
+}
+
+/* Mail Button */
+.btn-call:hover {
+  content: url("../images/dialog-box/call-active.png");
+  cursor: pointer;
+}
