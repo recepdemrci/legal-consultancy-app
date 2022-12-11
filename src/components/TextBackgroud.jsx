@@ -6,7 +6,7 @@ function TextBackground(props) {
       {props.img && (
         <img class={props.img.class} src={props.img.src} alt={props.img.alt} />
       )}
-      <h1 class="display-3 text-end">{props.text}</h1>
+      <h1 class={"display-3 " + props.textAlign}>{props.text}</h1>
     </div>
   );
 }

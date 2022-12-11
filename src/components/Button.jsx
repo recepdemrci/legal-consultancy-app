@@ -28,7 +28,7 @@ function Button(props) {
       case "mail-large":
         return isActive ? mailActiveLarge : mailLarge;
       case "call":
-        return isActive ? callActive : callActiveLarge;
+        return isActive ? callActive : call;
       case "call-large":
         return isActive ? callActiveLarge : callLarge;
       case "direction":
