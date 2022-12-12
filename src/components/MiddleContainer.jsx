@@ -58,7 +58,7 @@ function MiddleContainer() {
           textAlign="text-start"
         />
         <div class="col-xl-4 col-lg-6 col-7 text-center offset-lg-0 mb-lg-0 mb-5 offset-5">
-          <Card name="word-card" title="HESAP VEREBİLİRLİK    ŞEFFAFLIK" />
+          <Card name="word-card" title={<p>HESAP VEREBİLİRLİK<br/>ŞEFFAFLIK</p>} />
         </div>
       </div>
       <div class="row">
