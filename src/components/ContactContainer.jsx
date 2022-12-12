@@ -3,7 +3,7 @@ import "assets/styles/ContactContainer.css";
 import containerImg from "assets/images/contact-container.png";
 import TextBackground from "components/TextBackgroud";
 import Card from "components/Card";
-import Phone from "./Phone";
+import Phone from "components/Phone";
 
 function ContactContainer() {
   return (
