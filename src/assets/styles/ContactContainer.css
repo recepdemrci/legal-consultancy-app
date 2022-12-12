@@ -1,13 +1,13 @@
 /* Contact Container ------------------ */
 .contact-container {
   position: relative;
-  background-color: #F0F2F4;
+  background-color: #f0f2f4;
   padding: 8% 15%;
 }
 
 .contact-container .display-3 {
   margin: auto;
-  opacity: .08;
+  opacity: 0.08;
   color: #004143;
   text-shadow: 0px 2px, 2px 0px, 2px 2px;
   font-weight: 600;
@@ -32,7 +32,7 @@
 }
 
 .contact-card h4 {
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   font-weight: 600;
   font-size: 1.5rem;
 }
@@ -47,12 +47,12 @@
 
 /* Address Card */
 .address-card {
-  border: .5rem solid;
-  border-color: #9ED2C6;
-  background-color: #F0F2F4;
+  border: 0.5rem solid;
+  border-color: #9ed2c6;
+  background-color: #f0f2f4;
   padding: 3rem 1rem;
   color: black;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
   position: relative;
   z-index: 1;
 }
@@ -77,7 +77,7 @@
   right: 0;
   margin: auto;
   width: 65%;
-  pointer-events: none
+  pointer-events: none;
 }
 
 .contact-phone-container .row {
