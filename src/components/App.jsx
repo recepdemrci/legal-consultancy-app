@@ -4,6 +4,7 @@ import Navbar from "components/Navbar/Navbar";
 import TopContainer from "components/TopContainer";
 import MiddleContainer from "components/MiddleContainer";
 import BottomContainer from "./BottomContainer";
+import ContactContainer from "./ContactContainer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <TopContainer />
       <MiddleContainer />
       <BottomContainer />
+      <ContactContainer />
     </>
   );
 }
