@@ -1,0 +1,89 @@
+/* Contact Container ------------------ */
+.contact-container {
+  position: relative;
+  background-color: #f0f2f4;
+  padding: 8% 8%;
+}
+
+.contact-container .display-3 {
+  margin: auto;
+  opacity: 0.08;
+  color: #004143;
+  text-shadow: 0px 2px, 2px 0px, 2px 2px;
+  font-weight: 600;
+  letter-spacing: -0.4rem;
+  line-height: 3rem;
+}
+
+.contact-container .line {
+  color: black;
+  opacity: unset;
+}
+
+/* Contact Card */
+.contact-card {
+  padding: 2rem;
+  color: white;
+  background-color: #004143;
+  font-weight: 100;
+  font-size: 1.1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-card h4 {
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.contact-card .line {
+  color: white;
+  text-align: center;
+  opacity: unset;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Address Card */
+.address-card {
+  border: 0.5rem solid;
+  border-color: #9ed2c6;
+  background-color: #f0f2f4;
+  padding: 3rem 1rem;
+  color: black;
+  letter-spacing: 0.2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.address-card h4 {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+/* Phone Contact Images */
+.contact-phone-container {
+  position: relative;
+  margin: 3rem 0;
+  padding: 6.5rem 1rem;
+}
+
+.phone {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 65%;
+  pointer-events: none;
+}
+
+.contact-phone-container .row {
+  margin: 0;
+}
+
+.contact-phone-container .img-fluid {
+  padding: 0;
+}
