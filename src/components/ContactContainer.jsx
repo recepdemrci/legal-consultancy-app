@@ -9,7 +9,7 @@ function ContactContainer() {
   return (
     <div class="contact-container" id="contact-container">
       <div class="row align-top justify-content-end">
-        <div class="col-lg-8 col-6 align-self-center">
+        <div class="col-lg-8 col-6 d-none d-lg-block align-self-center">
           <hr class="hr line" />
         </div>
       </div>

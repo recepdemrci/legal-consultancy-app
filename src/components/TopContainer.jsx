@@ -16,7 +16,7 @@ function TopContainer() {
       <Pen />
       <div class="row row-top">
         <div class="col-xl-6 col-lg-8 col-12">
-          <Button type="mail" />
+          <Button type="call" />
           <img
             src={containerImg}
             alt="top-container-img"

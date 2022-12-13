@@ -63,7 +63,7 @@ function MiddleContainer() {
       </div>
       <div class="row">
         <div class="col-xl-3 col-lg-4 col-5">
-          <Button type="call" />
+          <Button type="mail" />
         </div>
       </div>
     </div>
