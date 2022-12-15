@@ -2,6 +2,8 @@ import React from "react";
 import "assets/styles/TopContainer.css";
 import containerImg from "assets/images/top-container.png";
 import clipImg from "assets/images/top-container-clip.png";
+import call from "assets/images/dialog-box/call-large.png";
+import callActive from "assets/images/dialog-box/call-active-large.png";
 import TextBackground from "components/TextBackgroud";
 import Pen from "components/Pen";
 import Card from "components/Card";
@@ -14,9 +16,13 @@ function TopContainer() {
         <TextBackground col="col" text="TİCARET HUKUKU" textAlign="text-end" />
       </div>
       <Pen />
+      <div class="row my-lg-5 mb-5 justify-content-center">
+        <div class="col-xl-3 col-lg-4 col-8 text-center">
+          <Button img={call} imgActive={callActive} name="call" />
+        </div>
+      </div>
       <div class="row row-top">
-        <div class="col-xl-6 col-lg-8 col-12">
-          <Button type="call" />
+        <div class="col-xl-6 col-lg-8 col-12 mt-md-5 text-center">
           <img
             src={containerImg}
             alt="top-container-img"
@@ -62,7 +68,7 @@ function TopContainer() {
           />
         </div>
         <TextBackground
-          img={{ class: "img-fluid clip", src: clipImg, alt: "clip-image" }}
+          // img={{ class: "img-fluid clip", src: clipImg, alt: "clip-image" }}
           col="col"
           text="İCRA ve İFLAS HUKUKU"
           textAlign="text-end"

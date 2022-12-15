@@ -4,9 +4,9 @@ import NavbarItem from "components/Navbar/NavbarItem";
 const navbarItems = [
   { href: "#home-container", item: "ANASAYFA" },
   { href: "#top-container", item: "HİZMETLERİMİZ" },
-  { href: "#home-container", item: "HAKKIMIZDA" },
-  { href: "#home-container", item: "KADROMUZ" },
-  { href: "#home-container", item: "İLETİŞİM" },
+  { href: "#middle-container", item: "HAKKIMIZDA" },
+  { href: "#bottom-container", item: "KADROMUZ" },
+  { href: "#contact-container", item: "İLETİŞİM" },
 ];
 
 function NavbarList(props) {
@@ -19,8 +19,8 @@ function NavbarList(props) {
       id="navbarId"
     >
       <ul class="navbar-nav mx-auto my-2">
-        {navbarItems.map((navbarItem) => (
-          <NavbarItem href={navbarItem.href} item={navbarItem.item} />
+        {navbarItems.map((navbarItem, idx) => (
+          <NavbarItem key={idx} href={navbarItem.href} item={navbarItem.item} />
         ))}
       </ul>
     </div>

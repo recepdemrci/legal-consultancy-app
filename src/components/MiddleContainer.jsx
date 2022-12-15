@@ -1,6 +1,8 @@
 import React from "react";
 import "assets/styles/MiddleContainer.css";
 import containerImg from "assets/images/middle-container.png";
+import mail from "assets/images/dialog-box/mail-large.png";
+import mailActive from "assets/images/dialog-box/mail-active-large.png";
 import Card from "components/Card";
 import TextBackground from "components/TextBackgroud";
 import Button from "components/Button";
@@ -9,7 +11,7 @@ function MiddleContainer() {
   return (
     <div class="middle-container" id="middle-container">
       <div class="row justify-content-between row-top">
-        <div class="col-xl-5 col-lg-6 col-9 mb-lg-0 mb-5">
+        <div class="col-xl-5 col-lg-6 col-8 mb-lg-0 mb-5">
           <Card
             name="info-card"
             title="HAKKIMIZDA"
@@ -51,7 +53,7 @@ function MiddleContainer() {
           </div>
         </div>
       </div>
-      <div class="row row-bottom">
+      <div class="row mb-5 row-bottom">
         <TextBackground
           col="col-xl-5 col-lg-6"
           text="ÖNLEYİCİ AVUKATLIK"
@@ -61,9 +63,9 @@ function MiddleContainer() {
           <Card name="word-card" title={<p>HESAP VEREBİLİRLİK<br/>ŞEFFAFLIK</p>} />
         </div>
       </div>
-      <div class="row">
-        <div class="col-xl-3 col-lg-4 col-5">
-          <Button type="mail" />
+      <div class="row mt-5 justify-content-center">
+        <div class="col-xl-3 col-lg-4 col-8 text-center">
+          <Button img={mail} imgActive={mailActive} name="mail" />
         </div>
       </div>
     </div>

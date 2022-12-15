@@ -19,7 +19,6 @@
 /* Pen Styles */
 .top-container .row-pen {
   margin-top: -2rem;
-  margin-bottom: 4rem;
 }
 
 .row-pen .line {
@@ -27,12 +26,6 @@
   opacity: unset;
   text-align: center;
   margin-left: 2rem;
-}
-
-/* Mail Button */
-.call {
-  width: 50%;
-  margin-bottom: 3rem;
 }
 
 /* Services Card */

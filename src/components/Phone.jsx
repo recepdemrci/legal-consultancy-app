@@ -1,5 +1,12 @@
 import React from "react";
 import phoneImg from "assets/images/phone.png";
+import mailLarge from "assets/images/dialog-box/mail-large.png";
+import mailActiveLarge from "assets/images/dialog-box/mail-active-large.png";
+import callLarge from "assets/images/dialog-box/call-large.png";
+import callActiveLarge from "assets/images/dialog-box/call-active-large.png";
+import directionLarge from "assets/images/dialog-box/direction-large.png";
+import directionActiveLarge from "assets/images/dialog-box/direction-active-large.png";
+
 import Button from "components/Button";
 
 
@@ -8,13 +15,13 @@ function Phone() {
     <div class="contact-phone-container">
       <img src={phoneImg} alt="phone" class="img-fluid phone" />
       <div class="row py-3">
-        <Button type="call-large" />
+        <Button img={callLarge} imgActive={callActiveLarge} />
       </div>
       <div class="row py-3">
-        <Button type="mail-large" />
+        <Button img={mailLarge} imgActive={mailActiveLarge} />
       </div>
       <div class="row py-3">
-      <Button type="direction" />
+      <Button img={directionLarge} imgActive={directionActiveLarge} />
       </div>  
     </div>
   );
