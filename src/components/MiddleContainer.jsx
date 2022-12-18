@@ -73,7 +73,7 @@ function MiddleContainer() {
         </div>
       </div>
       <div class="row mt-5 justify-content-center">
-        <div class="col-xl-3 col-lg-4 col-8 text-center">
+        <div class="col-xl-4 col-lg-5 col-10 text-center">
           <Button
             img={mail}
             imgActive={mailActive}

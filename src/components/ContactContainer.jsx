@@ -17,7 +17,7 @@ function ContactContainer() {
         <TextBackground col="col" text="HOŞ GELDİNİZ" textAlign="text-end" />
       </div>
       <div class="row justify-content-center">
-        <div class="col-xl-4 col-9 align-self-center">
+        <div class="col-xl-4 col-10 align-self-center">
           <div class="row mx-0">
             <div class="col text-center mb-5">
               <Card
@@ -54,14 +54,14 @@ function ContactContainer() {
             </div>
           </div>
         </div>
-        <div class="col-xl-4 col-9 mb-xl-0 text-center align-self-center">
+        <div class="col-xl-4 col-10 mb-xl-0 mb-5 text-center align-self-center">
           <img
             src={containerImg}
             alt="contact-container-img"
             class="img-fluid"
           />
         </div>
-        <div class="col-xl-4 col-8 mt-xl-0 mt-5 align-self-center">
+        <div class="col-xl-4 col-10 mt-xl-0 mt-5 align-self-center">
           <Phone />
         </div>
       </div>

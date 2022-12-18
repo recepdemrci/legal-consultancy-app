@@ -17,7 +17,7 @@ function TopContainer() {
       </div>
       <Pen />
       <div class="row my-lg-5 mb-5 justify-content-center">
-        <div class="col-xl-3 col-lg-4 col-8 text-center">
+        <div class="col-xl-4 col-lg-5 col-10 text-center">
           <Button
             img={call}
             imgActive={callActive}
