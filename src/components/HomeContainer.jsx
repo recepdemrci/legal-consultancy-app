@@ -6,7 +6,7 @@ import FirmName from "components/Firm/FirmName";
 function HomeContainer() {
   return (
     <div class="home-container" id="home-container">
-      <a class="home-side-top" href="">
+      {/* <a class="home-side-top" href="">
         İŞ HUKUKU
       </a>
       <a class="home-side-middle" href="">
@@ -14,7 +14,7 @@ function HomeContainer() {
       </a>
       <a class="home-side-bottom" href="">
         CEZA HUKUKU
-      </a>
+      </a> */}
 
       <div class="home-title">
         <div class="container text-center">
