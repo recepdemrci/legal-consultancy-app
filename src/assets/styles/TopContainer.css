@@ -3,12 +3,12 @@
   color: white;
   position: relative;
   background-color: white;
-  padding: 8% 20%;
+  padding: 8% 8%;
 }
 
 .top-container .display-3 {
   margin: auto;
-  opacity: .08;
+  opacity: 0.08;
   color: #004143;
   text-shadow: 0px 3px, 3px 0px, 3px 3px;
   font-weight: 600;
@@ -19,7 +19,6 @@
 /* Pen Styles */
 .top-container .row-pen {
   margin-top: -2rem;
-  margin-bottom: 4rem;
 }
 
 .row-pen .line {
@@ -27,12 +26,6 @@
   opacity: unset;
   text-align: center;
   margin-left: 2rem;
-}
-
-/* Mail Button */
-.mail {
-  width: 50%;
-  margin-bottom: 3rem;
 }
 
 /* Services Card */
@@ -44,7 +37,7 @@
 }
 
 .service-card h4 {
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   font-weight: 600;
   font-size: 2.1rem;
 }
@@ -57,11 +50,11 @@
 
 /* Middle Row */
 .slogan-card {
-  border: .5rem solid;
-  border-color: #9ED2C6;
+  border: 0.5rem solid;
+  border-color: #9ed2c6;
   padding: 3rem 1rem;
   color: black;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
 }
 
 .slogan-card h4 {
