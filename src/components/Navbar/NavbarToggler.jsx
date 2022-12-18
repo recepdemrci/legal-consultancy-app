@@ -1,9 +1,10 @@
 import React from "react";
+import "assets/styles/Navbar.css";
 
 function NavbarToggler(props) {
   return (
     <button
-      class={"navbar-toggler mx-auto" + (props.collapsed ? " collapsed" : "")}
+      class={"navbar-toggler mx-auto p-2" + (props.collapsed ? " collapsed" : "")}
       onClick={props.handleClick}
       type="button"
       data-bs-toggle="collapse"

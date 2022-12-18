@@ -18,7 +18,7 @@ function NavbarList(props) {
       }
       id="navbarId"
     >
-      <ul class="navbar-nav mx-auto my-2">
+      <ul class="navbar-nav mx-auto my-lg-0 mt-4">
         {navbarItems.map((navbarItem, idx) => (
           <NavbarItem key={idx} href={navbarItem.href} item={navbarItem.item} />
         ))}

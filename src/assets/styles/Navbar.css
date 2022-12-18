@@ -8,8 +8,20 @@
   color: #126e82;
 }
 
+.navbar-toggler-icon {
+  width: 5em !important;
+  height: 5em !important;
+}
+
+
 .navbar-nav > li {
   font-size: small;
   font-weight: 500;
   letter-spacing: 0.05em;
+}
+
+@media only screen and (max-width: 1000px) {
+  .nav-link .btn {
+    font-size: 2rem;
+  }
 }
