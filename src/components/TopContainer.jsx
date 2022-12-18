@@ -18,7 +18,12 @@ function TopContainer() {
       <Pen />
       <div class="row my-lg-5 mb-5 justify-content-center">
         <div class="col-xl-3 col-lg-4 col-8 text-center">
-          <Button img={call} imgActive={callActive} name="call" />
+          <Button
+            img={call}
+            imgActive={callActive}
+            url={"tel: +90 532 660 02 85"}
+            name="call"
+          />
         </div>
       </div>
       <div class="row row-top">

@@ -9,20 +9,32 @@ import directionActiveLarge from "assets/images/dialog-box/direction-active-larg
 
 import Button from "components/Button";
 
-
 function Phone() {
   return (
     <div class="contact-phone-container">
       <img src={phoneImg} alt="phone" class="img-fluid phone" />
       <div class="row py-3">
-        <Button img={callLarge} imgActive={callActiveLarge} />
+        <Button
+          img={callLarge}
+          imgActive={callActiveLarge}
+          url={"tel: +90 532 660 02 85"}
+        />
       </div>
       <div class="row py-3">
-        <Button img={mailLarge} imgActive={mailActiveLarge} />
+        <Button
+          img={mailLarge}
+          imgActive={mailActiveLarge}
+          url={"mailto: nurettinselcukozturk@gmail.com"}
+        />
       </div>
       <div class="row py-3">
-      <Button img={directionLarge} imgActive={directionActiveLarge} />
-      </div>  
+        <Button
+          img={directionLarge}
+          imgActive={directionActiveLarge}
+          url={"https://goo.gl/maps/LfojNvvKAxfUV3Vu7"}
+          newTab={true}
+        />
+      </div>
     </div>
   );
 }

@@ -60,12 +60,26 @@ function MiddleContainer() {
           textAlign="text-start"
         />
         <div class="col-xl-4 col-lg-6 col-7 text-center offset-lg-0 mb-lg-0 mb-5 offset-5">
-          <Card name="word-card" title={<p>HESAP VEREBİLİRLİK<br/>ŞEFFAFLIK</p>} />
+          <Card
+            name="word-card"
+            title={
+              <p>
+                HESAP VEREBİLİRLİK
+                <br />
+                ŞEFFAFLIK
+              </p>
+            }
+          />
         </div>
       </div>
       <div class="row mt-5 justify-content-center">
         <div class="col-xl-3 col-lg-4 col-8 text-center">
-          <Button img={mail} imgActive={mailActive} name="mail" />
+          <Button
+            img={mail}
+            imgActive={mailActive}
+            url={"mailto: nurettinselcukozturk@gmail.com"}
+            name="mail"
+          />
         </div>
       </div>
     </div>
