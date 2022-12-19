@@ -1,7 +1,7 @@
 import React from "react";
 import "assets/styles/TopContainer.css";
+import "assets/styles/Card.css";
 import containerImg from "assets/images/top-container.png";
-import clipImg from "assets/images/top-container-clip.png";
 import call from "assets/images/dialog-box/call-large.png";
 import callActive from "assets/images/dialog-box/call-active-large.png";
 import TextBackground from "components/TextBackgroud";
@@ -16,18 +16,9 @@ function TopContainer() {
         <TextBackground col="col" text="TİCARET HUKUKU" textAlign="text-end" />
       </div>
       <Pen />
-      <div class="row my-lg-5 mb-5 justify-content-center">
-        <div class="col-xl-4 col-lg-5 col-10 text-center">
-          <Button
-            img={call}
-            imgActive={callActive}
-            url={"tel: +90 532 660 02 85"}
-            name="call"
-          />
-        </div>
-      </div>
+      
       <div class="row row-top">
-        <div class="col-xl-6 col-lg-8 col-12 mt-md-5 text-center">
+        <div class="col-xl-6 col-lg-8 col-12 text-center">
           <img
             src={containerImg}
             alt="top-container-img"
@@ -68,7 +59,7 @@ function TopContainer() {
         <div class="col-lg-5 col-12 text-center offset-lg-3">
           <Card
             name="slogan-card"
-            title='"SAVUNULMANIN SAVUNULMASI" GEREKTİĞİNE İNANMAKTAYIZ.'
+            title='“SAVUNULMANIN SAVUNULMASI” GEREKTİĞİNE İNANMAKTAYIZ.'
             body={<p>NET VE ANLAŞILIR OLMAYA ÇALIŞIYORUZ.</p>}
           />
         </div>
@@ -78,6 +69,16 @@ function TopContainer() {
           text="İCRA ve İFLAS HUKUKU"
           textAlign="text-end"
         />
+      </div>
+      <div class="row mt-5 justify-content-center">
+        <div class="col-xl-4 col-lg-5 col-10 text-center">
+          <Button
+            img={call}
+            imgActive={callActive}
+            url={"tel: +90 532 660 02 85"}
+            name="call"
+          />
+        </div>
       </div>
     </div>
   );

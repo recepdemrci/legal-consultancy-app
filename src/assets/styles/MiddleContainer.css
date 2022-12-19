@@ -5,22 +5,6 @@
   padding: 4% 8%;
 }
 
-.info-card {
-  color: black;
-  font-weight: 100;
-}
-
-.info-card h4 {
-  letter-spacing: 0.1rem;
-  font-weight: 600;
-  font-size: 2.1rem;
-}
-
-.info-card .line {
-  text-align: center;
-  opacity: unset;
-}
-
 .middle-container .slogan-card {
   padding-bottom: 5rem;
   margin-bottom: -5rem;
@@ -39,17 +23,4 @@
 
 .middle-container .row-bottom {
   margin-top: -5rem;
-}
-
-.word-card {
-  background-color: #004143;
-  padding: 5rem 2rem;
-  letter-spacing: 0.2rem;
-}
-
-.word-card h4 {
-  font-weight: 100;
-  font-size: medium;
-  line-height: 2.5rem;
-  color: white;
 }

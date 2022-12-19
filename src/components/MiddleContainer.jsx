@@ -1,5 +1,6 @@
 import React from "react";
 import "assets/styles/MiddleContainer.css";
+import "assets/styles/Card.css";
 import containerImg from "assets/images/middle-container.png";
 import mail from "assets/images/dialog-box/mail-large.png";
 import mailActive from "assets/images/dialog-box/mail-active-large.png";
@@ -11,7 +12,7 @@ function MiddleContainer() {
   return (
     <div class="middle-container" id="middle-container">
       <div class="row justify-content-between row-top">
-        <div class="col-xl-5 col-lg-6 col-8 mb-lg-0 mb-5">
+        <div class="col-xl-6 col-lg-8 col-12 mb-lg-0 mb-5">
           <Card
             name="info-card"
             title="HAKKIMIZDA"
@@ -41,7 +42,7 @@ function MiddleContainer() {
           <div class="col-xl-8 col-lg-10 col-8 text-center offset-4">
             <Card
               name="slogan-card"
-              title="HAK, HUKUKEN KORUNAN MENFAAT VE HELAL KAVRAMLARINI ÖZEL İLGİ ODAĞIMIZDIR."
+              title="HAK, HUKUKEN KORUNAN MENFAAT VE HELAL KAVRAMLARI ÖZEL İLGİ ODAĞIMIZDIR."
             />
           </div>
           <div class="col-xl-8 col-lg-10 col-8 align-self-start">

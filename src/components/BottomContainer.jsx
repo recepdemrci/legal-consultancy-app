@@ -1,5 +1,6 @@
 import React from "react";
 import "assets/styles/BottomContainer.css";
+import "assets/styles/Card.css";
 import lawyerImg from "assets/images/lawyer.png";
 import Card from "./Card";
 import Avatar from "./Avatar";
@@ -24,10 +25,10 @@ function BottomContainer() {
             }
           />
         </div>
-        <div class="col-xl-4 col-md-6 col-8 text-center">
+        <div class="col-xl-4 col-10 text-center">
           <Avatar image={lawyerImg} />
         </div>
-        <div class="col-xl-4 col-md-6 col-8 text-center align-self-center">
+        <div class="col-xl-4 col-11 text-center align-self-center">
           <Card
             name="cv-card"
             title="NURETTİN SELÇUK ÖZTÜRK"

@@ -3,39 +3,9 @@
   color: white;
   position: relative;
   background-color: white;
-  padding: 8% 2%;
+  padding: 8% 8%;
 }
 
 .bottom-container [class*="col"] {
   padding: 1rem 2rem;
-}
-
-.experience-card {
-  padding: 3rem 3rem 0 0;
-  background-image: linear-gradient(black, black), linear-gradient(black, black);
-  background-repeat: no-repeat;
-  background-size: 2px 100%, 75% 2px;
-  background-position: right top;
-}
-
-.experience-card h4 {
-  color: black;
-  font-weight: 500;
-  font-size: large;
-  line-height: 2.5rem;
-}
-
-.cv-card {
-  background-color: #004143;
-  padding: 2rem 3rem;
-  font-size: large;
-  font-weight: 300;
-  line-height: 2rem;
-  letter-spacing: 0.1rem;
-}
-
-.cv-card h4 {
-  font-weight: 600;
-  font-size: x-large;
-  color: white;
 }

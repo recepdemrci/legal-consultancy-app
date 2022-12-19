@@ -1,0 +1,203 @@
+.title {
+  font-family: "Open Sans", sans-serif !important;
+}
+
+.slogan-card {
+  border: 0.5rem solid;
+  border-color: #9ed2c6;
+  padding: 3rem 2.2rem;
+  color: black;
+  letter-spacing: 0.2rem;
+}
+
+.slogan-card .title {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+.slogan-card p {
+  margin: 2rem 0 0 0;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.service-card {
+  padding: 3rem;
+  color: white;
+  background-color: #004143;
+}
+
+.service-card .title {
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+  font-size: 2.2rem;
+}
+
+.service-card .body {
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+
+.service-card .line {
+  color: white;
+  text-align: center;
+  opacity: unset;
+}
+
+.info-card {
+  padding: 3rem;
+  color: black;
+}
+
+.info-card .title {
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+  font-size: 2.2rem;
+}
+
+.info-card .body {
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+
+.info-card .line {
+  text-align: center;
+  opacity: unset;
+}
+
+.word-card {
+  background-color: #004143;
+  padding: 5rem 2rem;
+}
+
+.word-card .title {
+  color: white;
+  font-weight: 200;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  letter-spacing: 0.2rem;
+}
+
+.experience-card {
+  padding: 3rem 3rem 0 0;
+  background-image: linear-gradient(black, black), linear-gradient(black, black);
+  background-repeat: no-repeat;
+  background-size: 2px 100%, 75% 2px;
+  background-position: right top;
+}
+
+.experience-card .title {
+  color: black;
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+
+.cv-card {
+  background-color: #004143;
+  padding: 2rem 3rem;
+  font-weight: 200;
+  letter-spacing: 0.1rem;
+  font-size: 1.2rem;
+}
+
+.cv-card .title {
+  font-weight: 400;
+  font-size: 2.2rem;
+  color: white;
+  letter-spacing: 0.1rem;
+}
+
+.contact-card {
+  padding: 2rem;
+  color: white;
+  background-color: #004143;
+  font-weight: 200;
+  font-size: 1.2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-card .title {
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+  font-size: 2.2rem;
+}
+
+.contact-card .line {
+  color: white !important;
+  text-align: center;
+  opacity: unset;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.address-card {
+  border: 0.5rem solid;
+  border-color: #9ed2c6;
+  background-color: #f0f2f4;
+  padding: 3rem 1rem;
+  color: black;
+  letter-spacing: 0.2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.address-card .title {
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .service-card .title {
+    font-size: 3.5rem;
+  }
+
+  .service-card .body {
+    font-size: 2rem;
+  }
+
+  .info-card .title {
+    font-size: 3.5rem;
+  }
+
+  .info-card .body {
+    font-size: 2rem;
+  }
+
+  .slogan-card .title {
+    font-size: 2.8rem;
+  }
+  
+  .slogan-card p {
+    font-size: 1.5rem;
+  }
+
+  .word-card .title {
+    font-weight: 200;
+    font-size: 2rem;
+    line-height: 4rem;
+  }
+
+  .cv-card .title {
+    font-size: 3rem;
+  }
+
+  .cv-card .body {
+    font-size: 2rem;
+  }
+
+  .contact-card .title {
+    font-size: 3rem;
+  }
+  
+  .contact-card .body {
+    font-size: 2rem;
+  }
+
+  .address-card .title {
+    font-size: 2.8;
+  }
+}
