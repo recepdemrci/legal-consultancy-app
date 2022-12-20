@@ -6,7 +6,7 @@ function NavbarItem(props) {
   return (
     <li class="nav-item mx-4" >
       <a class="nav-link" href={props.href}>
-        <button class="btn btn-sm p-lg-2 p-3" type="button">{props.item}</button>
+        <button class="btn btn-sm p-lg-2 p-3" type="button" onClick={props.handleClick}>{props.item}</button>
       </a>
     </li>
   );
