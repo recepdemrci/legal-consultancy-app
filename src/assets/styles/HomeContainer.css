@@ -37,6 +37,10 @@
   letter-spacing: 0.2rem;
 }
 
+.logo {
+  width: 50%;
+}
+
 /* Side butons */
 /* .home-container a {
   color: white;
