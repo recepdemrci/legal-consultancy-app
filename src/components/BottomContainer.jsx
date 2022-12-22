@@ -31,7 +31,7 @@ function BottomContainer() {
         <div class="col-xl-4 col-11 text-center align-self-center">
           <Card
             name="cv-card"
-            title="NURETTİN SELÇUK ÖZTÜRK"
+            title="Nurettin Selçuk Öztürk"
             body={
               <p>
                 <br />

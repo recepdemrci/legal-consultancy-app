@@ -23,14 +23,13 @@
 
 .service-card {
   padding: 3rem;
-  color: white;
-  background-color: #004143;
+  color: black;
 }
 
 .service-card .title {
   letter-spacing: 0.1rem;
-  font-weight: 400;
-  font-size: 2.2rem;
+  font-weight: 600;
+  font-size: 2.5rem;
 }
 
 .service-card .body {
@@ -39,7 +38,6 @@
 }
 
 .service-card .line {
-  color: white;
   text-align: center;
   opacity: unset;
 }
@@ -51,8 +49,8 @@
 
 .info-card .title {
   letter-spacing: 0.1rem;
-  font-weight: 400;
-  font-size: 2.2rem;
+  font-weight: 600;
+  font-size: 2.5rem;
 }
 
 .info-card .body {
@@ -66,7 +64,8 @@
 }
 
 .word-card {
-  background-color: #004143;
+  background: #306466;
+  border-radius: 10px;
   padding: 5rem 2rem;
 }
 
@@ -94,16 +93,17 @@
 }
 
 .cv-card {
-  background-color: #004143;
-  padding: 2rem 3rem;
+  background: #306466;
+  border-radius: 10px;
+  padding: 2rem 2rem;
   font-weight: 200;
   letter-spacing: 0.1rem;
   font-size: 1.2rem;
 }
 
 .cv-card .title {
-  font-weight: 400;
-  font-size: 2.2rem;
+  font-weight: 500;
+  font-size: 2.5rem;
   color: white;
   letter-spacing: 0.1rem;
 }
@@ -138,7 +138,6 @@
   background-color: #f0f2f4;
   padding: 3rem 1rem;
   color: black;
-  letter-spacing: 0.2rem;
   position: relative;
   z-index: 1;
 }
@@ -146,7 +145,7 @@
 .address-card .title {
   font-size: 2rem;
   letter-spacing: 0.1rem;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 
