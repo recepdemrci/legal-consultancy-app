@@ -14,13 +14,13 @@ function BottomContainer() {
             name="experience-card"
             title={
               <p>
-                FİKRİ VE SANAT MÜLKİYET
-                <br />
-                İŞ VE SOSYAL GÜVENLİK
+                TİCARET
                 <br />
                 İCRA VE İFLAS
                 <br />
-                TİCARET HUKUKU
+                İŞ VE SOSYAL GÜVENLİK
+                <br />
+                FİKRİ VE SANAT MÜLKİYET
               </p>
             }
           />

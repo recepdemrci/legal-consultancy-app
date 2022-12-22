@@ -32,24 +32,21 @@ function TopContainer() {
             line={true}
             body={
               <p>
-                Together we represent more than 60 years of experience in
-                claims-expertise: to prevent, to investigate and to defend.
+                Av. Nureddin Selçuk Öztürk tarafından kurulan, yerli ve yabancı
+                müvekkillerine özellikle şu alanlarda danışmanlık vermekteyiz;
                 <br />
-                We can help you with the whole package or just with the elements
-                you need:
                 <br />
-                – coverage
+                - Fikri/Sanai mülkiyet hukuk
                 <br />
-                – prevention
+                - İş ve sosyal güvenlik hukuk
                 <br />
-                – forensic investigation
+                - İcra ve iflas hukuku
                 <br />
-                – technical investigation
                 <br />
-                – material and economic damage
-                <br />
-                – practical solutions
-                <br />– legal assistance
+                Ayrıca müvekkillerinin karşılaştığı uyuşmazlıkların, hukuk
+                zemininde çözüm ve yöntemlerinin belirlenmesi, önleyici
+                avukatlık ve yargı süreçlerinin tümünün yürütülmesi
+                hizmetlerinin özveri ile sağlanması gayreti içerisindeyiz.
               </p>
             }
           />

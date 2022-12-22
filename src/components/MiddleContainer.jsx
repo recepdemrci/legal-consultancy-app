@@ -19,21 +19,23 @@ function MiddleContainer() {
             line={true}
             body={
               <p>
-                Av. Nureddin Selçuk Öztürk tarafından kurulan, yerli ve yabancı
-                müvekkillerine özellikle şu alanlarda danışmanlık vermekteyiz;
-                <br />
-                <br />
-                - Fikri/Sanai mülkiyet hukuk
-                <br />
-                - İş ve sosyal güvenlik hukuk
-                <br />
-                - İcra ve iflas hukuku
-                <br />
-                <br />
-                Ayrıca müvekkillerinin karşılaştığı uyuşmazlıkların, hukuk
-                zemininde çözüm ve yöntemlerinin belirlenmesi, önleyici
-                avukatlık ve yargı süreçlerinin tümünün yürütülmesi
-                hizmetlerinin özveri ile sağlanması gayreti içerisindeyiz.
+                <br/>
+                <b>HANEDAN HUKUK & DANIŞMANLIK</b> olarak;
+                <br/>
+                <br/>
+                Şirket ve gerçek kişi müvekkillerinin adli ve idari yargı mercii 
+                önünde temsil edilmesi ile bu süreçlerin hiç oluşmaması adına 
+                önleyici avukatlık modelini benimsemekte,
+                <br/>
+                <br/>
+                "Hak", "Hukuken Korunan Menfaat" ve "Helal" kavravramlarını 
+                özel ilgi odağımızda bulundurmakta,
+                <br/>
+                <br/>
+                Müvekkillerine karşı şeffaflık ve hesap verebilirlik ilkelerini şiar edinmekte ve
+                <br/>
+                <br/>
+                Savunulmanın savunulması gerektiğine inanmaktayız.
               </p>
             }
           />
@@ -56,8 +58,8 @@ function MiddleContainer() {
       </div>
       <div class="row mb-5 row-bottom">
         <TextBackground
-          col="col-xl-5 col-lg-6"
-          text="ÖNLEYİCİ AVUKATLIK"
+          col="col-xl-4 col-lg-4"
+          text={<p>FİKRİ/SANAİ<p/>MÜLKİYET<p/>HUKUKU</p>}
           textAlign="text-start"
         />
         <div class="col-xl-4 col-lg-6 col-7 text-center offset-lg-0 mb-lg-0 mb-5 offset-5">
