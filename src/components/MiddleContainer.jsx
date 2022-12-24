@@ -80,7 +80,7 @@ function MiddleContainer() {
           <Button
             img={mail}
             imgActive={mailActive}
-            url={"mailto: nurettinselcukozturk@gmail.com"}
+            url={"mailto: nureddinselcukozturk@gmail.com"}
             name="mail"
           />
         </div>

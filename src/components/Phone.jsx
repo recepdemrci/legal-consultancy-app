@@ -24,7 +24,7 @@ function Phone() {
         <Button
           img={mailLarge}
           imgActive={mailActiveLarge}
-          url={"mailto: nurettinselcukozturk@gmail.com"}
+          url={"mailto: nureddinselcukozturk@gmail.com"}
         />
       </div>
       <div class="row py-3">
