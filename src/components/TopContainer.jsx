@@ -13,7 +13,7 @@ function TopContainer() {
   return (
     <div class="top-container" id="top-container">
       <div class="row">
-        <TextBackground col="col" text="TİCARET HUKUKUk" textAlign="text-end" />
+        <TextBackground col="col" text="TİCARET HUKUKU" textAlign="text-end" />
       </div>
       <Pen />
       
