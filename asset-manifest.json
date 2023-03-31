@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/legal-consultancy-app/static/css/main.35776522.css",
-    "main.js": "/legal-consultancy-app/static/js/main.013ca63f.js",
-    "static/media/middle-container.png": "/legal-consultancy-app/static/media/middle-container.527d7331144b915ec274.png",
-    "static/media/contact-container.png": "/legal-consultancy-app/static/media/contact-container.924e2c3005dd2e2e46cb.png",
-    "static/media/home-header.png": "/legal-consultancy-app/static/media/home-header.869b2582634290648d64.png",
-    "static/media/top-container.png": "/legal-consultancy-app/static/media/top-container.2f279af7723652faf256.png",
-    "static/media/lawyer.png": "/legal-consultancy-app/static/media/lawyer.071d169c6f09ef92435a.png",
-    "static/media/phone.png": "/legal-consultancy-app/static/media/phone.4dc244c36925df90c499.png",
-    "static/media/top-container-pen.png": "/legal-consultancy-app/static/media/top-container-pen.d2156be563be2e81862a.png",
-    "static/media/mail-large.png": "/legal-consultancy-app/static/media/mail-large.1c98692070b6559ef52d.png",
-    "static/media/mail-active-large.png": "/legal-consultancy-app/static/media/mail-active-large.be67a91c3ee6518cd2e7.png",
-    "static/media/direction-active-large.png": "/legal-consultancy-app/static/media/direction-active-large.238b7380976d8100fc15.png",
-    "static/media/direction-large.png": "/legal-consultancy-app/static/media/direction-large.a9c2dd508299c46e2f0e.png",
-    "static/media/call-large.png": "/legal-consultancy-app/static/media/call-large.137b6fa0206b404f08a2.png",
-    "static/media/call-active-large.png": "/legal-consultancy-app/static/media/call-active-large.3c1f447eb6f1d1836bb6.png",
-    "index.html": "/legal-consultancy-app/index.html",
-    "main.35776522.css.map": "/legal-consultancy-app/static/css/main.35776522.css.map",
-    "main.013ca63f.js.map": "/legal-consultancy-app/static/js/main.013ca63f.js.map"
+    "main.css": "/static/css/main.0b10d06e.css",
+    "main.js": "/static/js/main.5823af35.js",
+    "static/media/middle-container.png": "/static/media/middle-container.527d7331144b915ec274.png",
+    "static/media/contact-container.png": "/static/media/contact-container.924e2c3005dd2e2e46cb.png",
+    "static/media/home-header.png": "/static/media/home-header.869b2582634290648d64.png",
+    "static/media/top-container.png": "/static/media/top-container.2f279af7723652faf256.png",
+    "static/media/lawyer.png": "/static/media/lawyer.071d169c6f09ef92435a.png",
+    "static/media/phone.png": "/static/media/phone.4dc244c36925df90c499.png",
+    "static/media/top-container-pen.png": "/static/media/top-container-pen.d2156be563be2e81862a.png",
+    "static/media/mail-large.png": "/static/media/mail-large.1c98692070b6559ef52d.png",
+    "static/media/mail-active-large.png": "/static/media/mail-active-large.be67a91c3ee6518cd2e7.png",
+    "static/media/direction-active-large.png": "/static/media/direction-active-large.238b7380976d8100fc15.png",
+    "static/media/direction-large.png": "/static/media/direction-large.a9c2dd508299c46e2f0e.png",
+    "static/media/call-large.png": "/static/media/call-large.137b6fa0206b404f08a2.png",
+    "static/media/call-active-large.png": "/static/media/call-active-large.3c1f447eb6f1d1836bb6.png",
+    "index.html": "/index.html",
+    "main.0b10d06e.css.map": "/static/css/main.0b10d06e.css.map",
+    "main.5823af35.js.map": "/static/js/main.5823af35.js.map"
   },
   "entrypoints": [
-    "static/css/main.35776522.css",
-    "static/js/main.013ca63f.js"
+    "static/css/main.0b10d06e.css",
+    "static/js/main.5823af35.js"
   ]
 }
