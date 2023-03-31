@@ -1,7 +1,7 @@
 {
   "name": "legal-consultancy-app",
   "version": "0.1.0",
-  "homepage": "https://recepdemrci.github.io/legal-consultancy-app",
+  "homepage": "https://hanedanhukuk.com",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
